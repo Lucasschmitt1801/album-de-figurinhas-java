@@ -31,31 +31,31 @@ public class Persistencia {
         } catch (IOException e) { /* Arquivo pode não existir */ }
         
         if (figurinhasModelo.isEmpty()) {
-            figurinhasModelo.put(1, new Figurinha(1, "Bulbasaur", "Seed Pokémon", 1, 0));
-            figurinhasModelo.put(2, new Figurinha(2, "Ivysaur", "Seed Pokémon", 1, 0));
-            figurinhasModelo.put(3, new Figurinha(3, "Venusaur", "Seed Pokémon", 1, 0));
-            figurinhasModelo.put(4, new Figurinha(4, "Charmander", "Lizard Pokémon", 1, 0));
-            figurinhasModelo.put(5, new Figurinha(5, "Charmeleon", "Flame Pokémon", 1, 0));
-            figurinhasModelo.put(6, new Figurinha(6, "Charizard", "Flame Pokémon", 1, 0));
-            figurinhasModelo.put(7, new Figurinha(7, "Squirtle", "Tiny Turtle Pokémon", 1, 0));
-            figurinhasModelo.put(8, new Figurinha(8, "Wartortle", "Turtle Pokémon", 1, 0));
-            figurinhasModelo.put(9, new Figurinha(9, "Blastoise", "Shellfish Pokémon", 1, 0));
-            figurinhasModelo.put(10, new Figurinha(10, "Caterpie", "Worm Pokémon", 1, 0));
-            figurinhasModelo.put(11, new Figurinha(11, "Metapod", "Cocoon Pokémon", 2, 0));
-            figurinhasModelo.put(12, new Figurinha(12, "Butterfree", "Butterfly Pokémon", 2, 0));
-            figurinhasModelo.put(13, new Figurinha(13, "Weedle", "Hairy Bug Pokémon", 2, 0));
-            figurinhasModelo.put(14, new Figurinha(14, "Kakuna", "Cocoon Pokémon", 2, 0));
-            figurinhasModelo.put(15, new Figurinha(15, "Beedrill", "Poison Bee Pokémon", 2, 0));
-            figurinhasModelo.put(16, new Figurinha(16, "Pidgey", "Tiny Bird Pokémon", 2, 0));
-            figurinhasModelo.put(17, new Figurinha(17, "Pidgeotto", "Bird Pokémon", 2, 0));
-            figurinhasModelo.put(18, new Figurinha(18, "Pidgeot", "Bird Pokémon", 2, 0));
-            figurinhasModelo.put(19, new Figurinha(19, "Rattata", "Mouse Pokémon", 2, 0));
-            figurinhasModelo.put(20, new Figurinha(20, "Raticate", "Mouse Pokémon", 2, 0));
+        	figurinhasModelo.put(1, new Figurinha(1, "Absol", "Disaster Pokémon", 1, 0));
+        	figurinhasModelo.put(2, new Figurinha(2, "Articuno", "Freeze Pokémon", 1, 0));
+        	figurinhasModelo.put(3, new Figurinha(3, "Jigglypuff", "Balloon Pokémon", 1, 0));
+        	figurinhasModelo.put(4, new Figurinha(4, "Eevee", "Evolution Pokémon", 1, 0));
+        	figurinhasModelo.put(5, new Figurinha(5, "Luxray", "Gleam Eyes Pokémon", 1, 0));
+        	figurinhasModelo.put(6, new Figurinha(6, "Flareon", "Flame Pokémon", 1, 0));
+        	figurinhasModelo.put(7, new Figurinha(7, "Lapras", "Transport Pokémon", 1, 0));
+        	figurinhasModelo.put(8, new Figurinha(8, "Meowth", "Scratch Cat Pokémon", 1, 0));
+        	figurinhasModelo.put(9, new Figurinha(9, "Pikachu", "Mouse Pokémon", 1, 0));
+        	figurinhasModelo.put(10, new Figurinha(10, "Piplup", "Penguin Pokémon", 1, 0));
+        	figurinhasModelo.put(11, new Figurinha(11, "Bulbasaur", "Seed Pokémon", 2, 0));
+        	figurinhasModelo.put(12, new Figurinha(12, "Charizard", "Flame Pokémon", 2, 0));
+        	figurinhasModelo.put(13, new Figurinha(13, "Turtwig", "Tiny Leaf Pokémon", 2, 0));
+        	figurinhasModelo.put(14, new Figurinha(14, "Mudkip", "Mud Fish Pokémon", 2, 0));
+        	figurinhasModelo.put(15, new Figurinha(15, "Squirtle", "Tiny Turtle Pokémon", 2, 0));
+        	figurinhasModelo.put(16, new Figurinha(16, "Vaporeon", "Bubble Jet Pokémon", 2, 0));
+        	figurinhasModelo.put(17, new Figurinha(17, "Zapdos", "Electric Pokémon", 2, 0));
+        	figurinhasModelo.put(18, new Figurinha(18, "Butterfree", "Butterfly Pokémon", 2, 0));
+        	figurinhasModelo.put(19, new Figurinha(19, "Turtwig", "Tiny Leaf Pokémon", 2, 0));
+        	figurinhasModelo.put(20, new Figurinha(20, "Dragonite", "Dragon Pokémon", 2, 0));
         }
 
         if (paginas.isEmpty()) {
-            paginas.add(new Pagina("Kanto Starters & Evolutions", 1, 10));
-            paginas.add(new Pagina("Early Kanto Pokémon", 11, 20));
+            paginas.add(new Pagina("Página 1", 1, 10));
+            paginas.add(new Pagina("Página 2", 11, 20));
         }
     }
 
