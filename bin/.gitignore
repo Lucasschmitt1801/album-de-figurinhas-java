@@ -1,0 +1,15 @@
+# Arquivos compilados do Java
+*.class
+*.jar
+
+# Pasta de output do Eclipse
+/bin/
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Arquivos de configuração do Eclipse específicos do usuário
+.classpath
+.project
+.settings/
